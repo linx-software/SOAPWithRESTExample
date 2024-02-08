@@ -1,0 +1,58 @@
+[
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "ZMwY",
+      "Properties": [
+        {
+          "Id": "Envelope",
+          "Name": "Envelope",
+          "Type": "Generated:JeO4",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "JeO4",
+      "Properties": [
+        {
+          "Id": "Body",
+          "Name": "Body",
+          "Type": "Generated:Uptz",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "Uptz",
+      "Properties": [
+        {
+          "Id": "CapitalCityResponse",
+          "Name": "CapitalCityResponse",
+          "Type": "Generated:m0S4",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Generated",
+    "Value": {
+      "Id": "m0S4",
+      "Properties": [
+        {
+          "Id": "CapitalCityResult",
+          "Name": "CapitalCityResult",
+          "Type": "Compiled:String",
+          "Access": "ReadWrite"
+        }
+      ]
+    }
+  }
+]

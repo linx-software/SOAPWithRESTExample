@@ -1,0 +1,52 @@
+{
+  "Properties": [
+    {
+      "Id": "Element name lookup",
+      "Type": "Compiled:System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "ValueUsage": "DesignTime",
+      "Value": {}
+    },
+    {
+      "Id": "Property map",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": ""
+    },
+    {
+      "Id": "Property map error message",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": null
+    },
+    {
+      "Id": "Property map valid",
+      "Type": "Compiled:Boolean",
+      "ValueUsage": "DesignTime",
+      "Value": true
+    },
+    {
+      "Id": "Schema",
+      "Type": "Compiled:String",
+      "ValueUsage": "DesignTime",
+      "Value": "<?xml version=\"1.0\"?>\r\n<xs:schema attributeFormDefault=\"unqualified\" elementFormDefault=\"qualified\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\">\r\n  <xs:element name=\"Envelope\">\r\n    <xs:complexType>\r\n      <xs:sequence>\r\n        <xs:element name=\"Body\">\r\n          <xs:complexType>\r\n            <xs:sequence>\r\n              <xs:element name=\"CapitalCityResponse\">\r\n                <xs:complexType>\r\n                  <xs:sequence>\r\n                    <xs:element name=\"CapitalCityResult\" type=\"xs:string\" />\r\n                  </xs:sequence>\r\n                </xs:complexType>\r\n              </xs:element>\r\n            </xs:sequence>\r\n          </xs:complexType>\r\n        </xs:element>\r\n      </xs:sequence>\r\n    </xs:complexType>\r\n  </xs:element>\r\n</xs:schema>"
+    },
+    {
+      "Id": "XML source",
+      "Type": "Compiled:Twenty57.Linx.Plugins.Xml.Common.XmlInterpreter.XmlSource, Twenty57.Linx.Plugins.Xml, Version=1.1.1.0, Culture=neutral, PublicKeyToken=null",
+      "ValueUsage": "DesignTime",
+      "Value": "String"
+    },
+    {
+      "Id": "XML string",
+      "Type": "Compiled:String",
+      "ValueUsage": "RuntimeRead",
+      "Value": {
+        "Expression": "CallRESTEndpoint.ResponseBody.Replace(\"soap:\", \"\")\r\n.Replace(\"m:\",\"\")",
+        "CompiledExpression": "={0}.Replace(\"soap:\",\"\")\r\n.Replace(\"m:\",\"\")",
+        "Type": "Compiled:String"
+      },
+      "ValueType": "Linx.CSharpExpression"
+    }
+  ],
+  "Result": "Generated:ZMwY"
+}
